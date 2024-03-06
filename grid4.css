@@ -1,0 +1,46 @@
+.grid4 {
+  width: 100%;
+  height: 100%;
+  background-color: #4d4d4d;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  margin: 10px;
+}
+
+.foto20 {
+  grid-column: span 1; /* Ocupa 1 colunas */
+  grid-row: span 2; /* Ocupa 2 linhas */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto19,
+.foto18,
+.foto17,
+.foto16 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto19 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.foto18 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.foto17 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.foto16 {
+  grid-column: 3;
+  grid-row: 2;
+}

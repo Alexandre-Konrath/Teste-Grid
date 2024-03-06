@@ -1,0 +1,39 @@
+.grid2 {
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  display: grid;
+  grid-template-areas:
+    "gato9 gato12 gato10 "
+    "gato15 gato14 gato13 "
+    "gato16 gato17 gato11 ";
+  margin: 10px;
+}
+
+.gato9 {
+  grid-area: gato9;
+}
+.gato10 {
+  grid-area: gato10;
+}
+.gato11 {
+  grid-area: gato11;
+}
+.gato12 {
+  grid-area: gato12;
+}
+.gato13 {
+  grid-area: gato13;
+}
+.gato14 {
+  grid-area: gato14;
+}
+.gato15 {
+  grid-area: gato15;
+}
+.gato16 {
+  grid-area: gato16;
+}
+.gato17 {
+  grid-area: gato17;
+}

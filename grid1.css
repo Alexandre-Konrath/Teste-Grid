@@ -1,0 +1,43 @@
+.grid1 {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  margin: 10px;
+}
+
+.grid1 .gato1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.grid1 .gato2 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.grid1 .gato3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.grid1 .gato4 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.grid1 .gato5 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.grid1 .gato6 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.grid1 .gato7 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.grid1 .gato8 {
+  grid-column: 3;
+  grid-row: 5;
+}

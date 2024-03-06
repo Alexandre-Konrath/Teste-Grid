@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #131313;
+}
+
+* img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.tela-grid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+}
