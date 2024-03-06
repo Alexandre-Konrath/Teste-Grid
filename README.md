@@ -1,2 +1,1 @@
-# teste-grid
-Um teste com o display: grid;. Para treinar os diversos formatos que da para usar com esta propriedade.
+![image](https://github.com/Alexandre-Konrath/teste-grid/assets/160286787/1eb598a9-afe1-4c40-91ee-9e0e18698611)
